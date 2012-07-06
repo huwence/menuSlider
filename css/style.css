@@ -1,0 +1,54 @@
+/*style css file for MenuSlider ui widget
+ * 
+ * @author huwence
+ * @data   2012-7-5 12:44:57
+ *
+ * */
+
+/*common style*/
+body, ul, ol, li {
+   border: 0 none;
+   padding: 0;
+   margin: 0;
+}
+
+ul, ol, li {
+   list-style-type: none;
+}
+
+#content {
+   margin: 0 auto;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   margin: -200px 0 0 -250px;
+}
+
+/*--------------------------------*/
+/*menu style*/
+.tangram-menuslider-menu {
+    width: 506px;  
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tangram-menuslider-menu li {
+    float: left;
+    margin-left: 0;
+}
+
+.tangram-menuslider-item {
+    display: block;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+    border-right: 2px solid #FFFFFF;
+    width: 98px;
+}
+
+.landscapes {background: url(../images/landscapes.jpg) no-repeat left center}
+.people     {background: url(../images/people.jpg) no-repeat left center}
+.nature     {background: url(../images/nature.jpg) no-repeat left center}
+.urban      {background: url(../images/urban.jpg) no-repeat left center}
+.abstract   {background: url(../images/abstract.jpg) no-repeat left center}
