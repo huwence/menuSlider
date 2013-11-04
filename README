@@ -1,15 +1,10 @@
 /******************************************************
 
-     File       : 新浪笔试题作答
-     Desc       : 实现题目期望效果
-                  已使用规定库文件封装为UI组建
 
-                  //USEAGE
-                  var menu = baidu.ui.MenuSlider(options)
-                  //测试浏览器
-                  firefox, chrome, ie8.0, ie6.0, ie7.0
-
-                  ps: 时间仓促，若存在bug或不足之处，请谅解
+     //USEAGE
+     var menu = baidu.ui.MenuSlider(options)
+     //测试浏览器
+     firefox, chrome, ie8.0, ie6.0, ie7.0
 
 
      Author     ：huwence
