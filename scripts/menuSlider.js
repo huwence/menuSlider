@@ -209,7 +209,7 @@
              var self = this,
                  item = baidu.dom.g(id);
              
-             alert("Hi, this is my log: " + item.href);
+			 //do other
          },
 
          /**
